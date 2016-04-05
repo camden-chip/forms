@@ -14,7 +14,7 @@
 <form action="register.php" method="get">
 	<div>
 	<label for="full-name">Full name</label>
-	<input type="text" id="full-name" required min="2">
+	<input type="text" id="full-name" required placeholder="Tatsiana Chypsanava">
 	</div>
 	<div>
 <label for="email">Email</label>
@@ -26,7 +26,7 @@
 	</div>
 	<div>
 <label for="website">Your website</label>
-	<input type="url" id="website">
+	<input type="url" id="website" required value="http://">
 	</div>
 		<div>
 <label for="quantuty">Quantity</label>
@@ -67,6 +67,9 @@
 		<label for="search">Search</label>
 		<input type="search" id="search">
 		
+	</div>
+	<div>
+		<progress max="100" value="50"></progress>
 	</div>
 	<input type="submit">
 </form>
